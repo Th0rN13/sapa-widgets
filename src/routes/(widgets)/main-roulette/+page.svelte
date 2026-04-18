@@ -15,7 +15,7 @@
 	];
 
 	let currentName = $state(names[0]);
-	let imageSrc = $state("/main_roulette_bg.png");
+	let imageSrc = $state("main_roulette_bg.png");
 
 	$effect(() => {
 		const interval = setInterval(() => {

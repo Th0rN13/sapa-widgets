@@ -29,7 +29,7 @@
 		"lint:css": "stylelint '**/*.{css,svelte}",
 		"lint:css-vars": "node scripts/css-vars-lint.js",
 		"prepare": "svelte-kit sync || echo ''",
-		"preview": "vite preview",		
+		"preview": "vite preview",
 		"test": "npm run test:unit -- --run && npm run test:e2e",
 		"test:e2e": "playwright test",
 		"test:run": "vitest run",

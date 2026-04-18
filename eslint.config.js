@@ -28,6 +28,7 @@ export default defineConfig(
 			"no-undef": "off",
 			"no-unused-vars": "error",
 			"no-console": ["error", { allow: ["warn", "error"] }],
+			"svelte/no-navigation-without-resolve": "off",
 			"@typescript-eslint/no-magic-numbers": [
 				"error",
 				{

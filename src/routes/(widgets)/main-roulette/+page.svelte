@@ -1,5 +1,5 @@
 <script lang="ts">
-	import WidgetSingle from "../../components/WidgetSingle.svelte";
+	import WidgetSingle from "$cmp/WidgetSingle.svelte";
 
 	const names = [
 		"Сапушка",
@@ -15,7 +15,7 @@
 	];
 
 	let currentName = $state(names[0]);
-	let imageSrc = $state("/roulette-bg.png");
+	let imageSrc = $state("/main_roulette_bg.png");
 
 	$effect(() => {
 		const interval = setInterval(() => {

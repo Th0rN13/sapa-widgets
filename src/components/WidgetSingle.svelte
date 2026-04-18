@@ -1,6 +1,4 @@
 <script lang="ts">
-	import { tick, onMount } from "svelte";
-
 	interface Props {
 		imageSrc: string;
 		name: string;
